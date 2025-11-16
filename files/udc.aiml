@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="1.0">
+
+  <category>
+    <pattern>HALO</pattern>
+    <template>
+      <random>
+        <li>Halo! Ini bot tanya-jawab jurnal AQG kamu. Mau tanya apa?</li>
+        <li>Hai! Siap bantu soal jurnal AQG rule-based vs neural-based.</li>
+        <li>Halo juga! Tanyakan judul, penulis, metode, dataset, metrik, atau kesimpulan.</li>
+      </random>
+    </template>
+  </category>
+
+  <category>
+    <pattern>HI</pattern>
+    <template><srai>HALO</srai></template>
+  </category>
+
+  <category>
+    <pattern>APA ITU CHATBOT</pattern>
+    <template>Chatbot di sini berbasis AIML (rule-based). Tapi fokus bot ini adalah Q&amp;A tentang jurnalmu.</template>
+  </category>
+
+  <category>
+    <pattern>APA JUDUL JURNAL</pattern>
+    <template>ANALISIS PERBANDINGAN AUTOMATIC QUESTION GENERATION: PENDEKATAN RULE-BASED VS NEURAL-BASED.</template>
+  </category>
+
+  <category>
+    <pattern>SIAPA PENULIS</pattern>
+    <template>Sean Henry Wijaya, Gavriel Joseph Lim, Raynaldo Gracia Buntoro — Teknik Informatika, FTI, Universitas Tarumanagara.</template>
+  </category>
+
+  <category>
+    <pattern>APA TUJUAN PENELITIAN</pattern>
+    <template>Membandingkan kinerja sistem Automatic Question Generation (AQG) berbasis rule-based dan neural-based untuk menghasilkan pertanyaan dari teks.</template>
+  </category>
+
+  <category>
+    <pattern>APA ITU AQG</pattern>
+    <template>Automatic Question Generation (AQG) adalah proses menghasilkan pertanyaan otomatis dari teks untuk pendidikan, QA, dan pengayaan data linguistik.</template>
+  </category>
+
+  <category>
+    <pattern>BEDA RULE BASED DAN NEURAL BASED</pattern>
+    <template>
+      Rule-based: mengandalkan aturan linguistik seperti POS dan dependency parsing; hasilnya terkontrol tapi kurang fleksibel.
+      Neural-based: memakai model transformer seperti T5 atau BART, lebih natural &amp; kontekstual namun butuh data besar.
+    </template>
+  </category>
+
+  <category>
+    <pattern>DATASET APA</pattern>
+    <template>Dataset yang digunakan adalah SQuAD v1.1 dari Wikipedia, yang berisi konteks dan pertanyaan dengan jawaban berupa answer span dari teks sumber.</template>
+  </category>
+
+  <category>
+    <pattern>PAKAI METRIK APA</pattern>
+    <template>Evaluasi menggunakan BLEU, ROUGE, METEOR, dan BERTScore untuk menilai kualitas pertanyaan yang dihasilkan.</template>
+  </category>
+
+  <category>
+    <pattern>APA HASIL PENELITIAN</pattern>
+    <template>Pendekatan neural-based menghasilkan pertanyaan yang lebih natural dan kontekstual, sementara rule-based lebih konsisten terhadap struktur kalimat.</template>
+  </category>
+
+  <category>
+    <pattern>ADA HUMAN EVALUATION</pattern>
+    <template>Ada. Human evaluation digunakan untuk menilai relevansi dan keterbacaan pertanyaan yang tidak tercermin dari metrik otomatis.</template>
+  </category>
+
+  <category>
+    <pattern>APA MANFAAT AQG</pattern>
+    <template>AQG bermanfaat untuk pembuatan soal otomatis dalam pendidikan, augmentasi data untuk QA system, dan riset NLP berbasis teks.</template>
+  </category>
+
+  <category>
+    <pattern>APA KESIMPULAN PENELITIAN</pattern>
+    <template>Kesimpulannya, pendekatan neural-based unggul dalam menghasilkan pertanyaan yang alami dan bermakna, sedangkan rule-based unggul dalam kontrol struktur.</template>
+  </category>
+
+</aiml>
